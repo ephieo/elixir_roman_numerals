@@ -1,21 +1,5 @@
 # RomanNum
 
-**TODO: Add description**
+The aim of this project is to build a roman number converter that will help further my understanding of coding in a functional programming language in this case elixir.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `roman_num` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:roman_num, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/roman_num>.
-
+## Developer - Ephrathah Oyedoh
