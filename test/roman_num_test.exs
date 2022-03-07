@@ -7,6 +7,6 @@ defmodule RomanNumTest do
   end
 
   test "adds numbers together" do
-    assert RomanNum.add(1, 2) == 5
+    assert RomanNum.add(1, 2) == 3
   end
 end
