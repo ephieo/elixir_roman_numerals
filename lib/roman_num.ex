@@ -16,11 +16,12 @@ defmodule RomanNum do
   }
 
   @roman_keys Map.keys(@roman) |> Enum.sort(&(&1 > &2))
-  def main do
-    input = take_input() |> String.trim() |> String.to_integer()
-    converted = convert(input)
-    print_roman_num(converted,input)
-  end
+  
+  # def main do
+  #   input = take_input() |> String.trim() |> String.to_integer()
+  #   converted = convert(input)
+  #   print_roman_num(converted,input)
+  # end
 
   def take_input do
     IO.gets("Enter number below :\n")
@@ -30,9 +31,11 @@ defmodule RomanNum do
     IO.puts("#{number} converts to #{roman}")
   end
 
-  @spec convert(pos_integer) :: String.t()
-  def convert(number) do
-    convert_to_roman(@roman_keys, number, "")
+  @spec convert :: String.t()
+  def convert do
+    input = take_input() |> String.trim() |> String.to_integer()
+    converted = convert_to_roman(@roman_keys, input, "")
+    print_roman_num(converted,input)
   end
 
   def convert_to_roman(_, 0, result), do: result
@@ -46,4 +49,4 @@ defmodule RomanNum do
   end
 end
 
-RomanNum.main()
+RomanNum.convert()
