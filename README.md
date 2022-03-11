@@ -10,7 +10,7 @@ My solution involves the use of recursion and `[ head | tail ]` a function that 
 
 all tests formatted in 4-stage format [x]
 
-Achieve 100% test coverage [x] `Elixir has a command that helps with this `mix test --cover` `
+Achieve 100% test coverage [x] Elixir has a command that helps with this `mix test --cover`
 
 Remove any comments within code. [x]
 
