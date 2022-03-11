@@ -12,6 +12,8 @@ all tests formatted in 4-stage format [x]
 
 Achieve 100% test coverage [x] Elixir has a command that helps with this `mix test --cover`
 
+<img width="520" alt="Screenshot 2022-03-11 at 09 30 12" src="https://user-images.githubusercontent.com/60614102/157841544-73009515-e63f-4fec-ba73-0b43179016df.png">
+
 Remove any comments within code. [x]
 
 formatting each document [x] `VS Code extension`
