@@ -5,8 +5,8 @@ defmodule RomanNumTest do
 
   test "prints to terminal" do
     assert capture_io(fn ->
-             assert RomanNum.print_roman_num("hello")
-           end) == "hello\n"
+             assert RomanNum.print_roman_num("III","3")
+           end) == "3 converts to III\n"
   end
 
   test "input is recieved" do
@@ -16,8 +16,8 @@ defmodule RomanNumTest do
   end
 
   test "number is converted and returned" do
-    assert capture_io(fn ->
-             assert RomanNum.convert(1)
-           end) == "I\n"
+    assert capture_io("3", fn ->
+             assert RomanNum.main
+           end) =~ "III\n"
   end
 end
